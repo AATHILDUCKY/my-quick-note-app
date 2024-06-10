@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grap command for filtering wordlists</title>
+  </head>
+  <body>
+    <h2 class="source-code-pro-700 text-yellow-500">
+      grap command for filtering wordlists
+    </h2>
+    <section class="mx-auto p-1 text-white font-mono">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-1">
+        <pre class="overflow-auto">
+              <code class="text-green-400">
+  grep -E '^.{5}$' /usr/share/wordlists/rockyou.txt > 5_cha_rockyou.txt
+
+  grep -E '^[[:alnum:]]{5}$' /usr/share/wordlists/rockyou.txt > 5_cha_rockyou.txt
+                
+  grep -E '^[[:alpha:]]{5}$' /usr/share/wordlists/rockyou.txt > 5_cha_rockyou.txt
+                
+  grep -E '^[[:upper:]]{5}$' /usr/share/wordlists/rockyou.txt > 5_cha_rockyou.txt
+                
+  grep -E '^[[:lower:]]{5}$' /usr/share/wordlists/rockyou.txt > 5_cha_rockyou.txt
+                
+  grep -E '^[[:digit:]]{5}$' /usr/share/wordlists/rockyou.txt > 5_cha_rockyou.txt
+              </code>
+          </pre>
+      </div>
+    </section>
+  </body>
+</html>

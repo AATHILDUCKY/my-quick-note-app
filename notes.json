@@ -1,0 +1,83 @@
+[
+    {
+        "keywords": "cat, all, text file,current, directory, flag",
+        "note": "/notes/note1.html"
+    },
+    {
+        "keywords": "git, push, origin, main, github, upload",
+        "note": "/notes/git_push_commands.html"
+    },
+    {
+        "keywords": "connect, ssh, sshkey, id_rsa, rce, reverse shell",
+        "note": "/notes/connect_with_ssh.html"
+    },
+    {
+        "keywords": "crt.sh, filter, subdomains, grep, curl",
+        "note": "/notes/grep_crt_sh_results.html"
+    },
+    {
+        "keywords": "filter, sorting, wordlist, rockyou, grep, -e",
+        "note": "/notes/filter_and_sorting_wordlist.html"
+    },
+    {
+        "keywords": "find, flag, grep, whole, directory, search flag, ctf",
+        "note": "/notes/search_flag_in_whole_directory.html"
+    },
+    {
+        "keywords": "ftp, enum , pentest",
+        "note": "/notes/ftp_enum.html"
+    },
+    {
+        "keywords": "gobuster, subdomain, enum",
+        "note": "/notes/gobuster_subdomain_enum.html"
+    },
+    {
+        "keywords": "install , tar , linux ,kali linux",
+        "note": "/notes/install_tar_file_in_linux.html"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sensitive_js_info.html"
+    },
+    {
+        "keywords": "md5, hashing, convert",
+        "note": "/notes/wordlist_to_md5.html"
+    },
+    {
+        "keywords": "google, dork, private, bugbounty",
+        "note": "/notes/dork_for_private_bugbouty.html"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen.html"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen.html"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen.html"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen.html"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen.html"
+    },
+    {
+        "keywords": "leak, sensitive, information, disclosure, katana, secretfinder, api, find",
+        "note": "/notes/sen.html"
+    }
+    
+]

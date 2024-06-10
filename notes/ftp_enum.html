@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FTP pentesting</title>
+  </head>
+  <body>
+    <h2 class="source-code-pro-700 text-yellow-500">FTP pentesting</h2>
+    <section class="mx-auto p-1 text-white font-mono">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-1">
+        <pre class="overflow-auto">
+              <code class="text-green-400">
+  ##Banner Grabbing
+    nmap -sV -A -p21 IP_ADD -A :- aggressive scan
+    nmap -sV -sC -p21 IP_ADD :- default scripts
+
+  ##Anonymous Login
+    username:anonymous password:--- (empty or anonymous)
+
+  ##Brute force
+    1. automated - nmap scripts
+
+    locate /nmap/scripts | grep ftp-
+
+    2. manual - hydra
+
+    hydra -l username -p password ftp://IPV4/..
+    hydra -L username.txt -P pass.txt ftp://IPV4/...
+
+  ##Browser connection
+    ftp://anonymous:anonymous@IP
+
+  ##downloading file
+    wget -m ftp://anonymous:anonymous@IP
+
+  ##Post Exploitation
+
+    some dangerous settings
+        anonymous_enable=YES
+        anon_upload_enable=YES
+        anon_mkdir_write_enable=YES
+        anon_root=/home/username/ftp
+        chown_uploads=YES
+        chown_username=username
+        local_enable=YES
+        no_anon_password=YES
+        write_enable=YES
+        .
+              </code>
+          </pre>
+      </div>
+    </section>
+  </body>
+</html>

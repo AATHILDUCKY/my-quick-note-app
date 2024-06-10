@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sensitive information gathering in js files</title>
+  </head>
+  <body>
+    <h2 class="source-code-pro-700 text-yellow-500">
+      sensitive information gathering in js files
+    </h2>
+    <section class="mx-auto p-1 text-white font-mono">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-1">
+        <pre class="overflow-auto">
+              <code class="text-green-400">
+  ##find all JS files
+    katana -u sub.domain.com
+    katana -u domain.com > website_all_js_files.txt
+
+  ##find secret info
+    cat website_all_js_files.txt | while read url; do python3 SecretFinder.py -i $url -o cli; done
+  
+  ==> find any paid api key - that is vulnerable, manualy test that api's then write a report
+              </code>
+          </pre>
+      </div>
+    </section>
+  </body>
+</html>
