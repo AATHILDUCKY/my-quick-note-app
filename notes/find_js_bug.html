@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>find sensitive information or bugs in javascript files</title>
+  </head>
+  <body>
+    <h2 class="source-code-pro-700 text-yellow-500">
+      find sensitive information or bugs in javascript files (katana, neclei)
+    </h2>
+    <section class="mx-auto p-1 text-white font-mono">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-1">
+        <pre class="overflow-auto">
+              <code class="text-green-400">
+  // getting all the js files
+  cat domains.txt | katana | grep js | httpx -mc 200 | tee js.txt
+
+  // find any sensitive information or bugs in javascript files
+  nuclei -l js.txt -t ~/nuclei-templates/exposures/ -o js_bugs.txt
+              </code>
+          </pre>
+      </div>
+    </section>
+  </body>
+</html>
