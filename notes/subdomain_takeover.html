@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>subdomain takeover</title>
+  </head>
+  <body>
+    <h2 class="source-code-pro-700 text-yellow-500">
+      finding subdomain takeover vuln
+    </h2>
+    <section class="mx-auto p-1 text-white font-mono">
+      <div class="bg-gray-800 rounded-lg shadow-lg p-1">
+        <pre class="overflow-auto">
+              <code class="text-green-400">
+  subfinder -d example.com -v -o output_subdomains.txt
+
+  subzy run --targets example_subdomains.txt --hide_fails
+          --tragets => is taget subdomain wordlist
+          --hide_fails => show only vulnerable domains
+              </code>
+          </pre>
+      </div>
+    </section>
+  </body>
+</html>
